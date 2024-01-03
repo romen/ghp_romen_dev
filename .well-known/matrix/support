@@ -1,0 +1,15 @@
+{
+    "contacts": [
+        {
+            "email_address": "admin@romen.dev",
+            "matrix_id": "@romen:romen.dev",
+            "role": "m.role.admin"
+        },
+        {
+            "email_address": "security@romen.dev",
+            "role": "m.role.security"
+        }
+    ],
+    "support_page": "https://matrix.romen.dev/support"
+}
+
