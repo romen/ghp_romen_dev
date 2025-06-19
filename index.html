@@ -43,6 +43,42 @@
     }
     img.u-photo { border-radius: 50%; }
     ul { padding: 0; list-style: none; }
+    section {
+      max-width: 72ch;         /* Limits line length for readability */
+      margin: 2rem auto;       /* Centers horizontally, adds vertical spacing */
+      padding: 1rem;           /* Some internal spacing */
+      text-align: left;
+
+      border: 1px solid #ccc;       /* Thin, light gray border */
+      border-radius: 0.5rem;        /* Optional: slightly rounded corners */
+      box-shadow: 0 0 4px rgba(0, 0, 0, 0.05); /* Optional: subtle shadow */
+
+      ul {
+        list-style-type: disc;   /* Show bullets (default for <ul>) */
+        padding-left: 2rem;      /* Add indentation */
+        margin-top: 1rem;        /* Optional spacing */
+        margin-bottom: 1rem;
+      }
+
+      li {
+        margin-bottom: 0.5rem;   /* Optional: space between items */
+      }
+    }
+    section h1,
+    section h2,
+    section h3,
+    section h4,
+    section h5,
+    section h6 {
+      text-align: center;
+    }
+    section .banner {
+      width: 100%;
+      height: auto;
+      display: block;
+      margin-bottom: 1rem;
+      border-radius: 0.5rem; /* Optional: soft corners */
+    }
   </style>
 </head>
 
@@ -70,27 +106,59 @@
 
       <li>Email: <a rel="me" href="mailto:nicola@romen.dev">nicola@romen.dev</a></li>
 
-      <!-- Update or remove the below links! -->
-      
-      <!-- Replace _mygithubid_ with your GitHub username in both places on the next line: -->
-      <li>Github: <a class="u-url" href="https://github.com/romen" rel="me">@romen</a></li>
+      <li>ORCID: <a rel="me" href="https://orcid.org/0000-0001-5172-4568">0000-0001-5172-4568</a></li>
 
+      <!-- Update or remove the below links! -->
+
+      <li>Github: <a class="u-url" href="https://github.com/romen" rel="me">@romen</a></li>
       <li>GitLab: <a class="u-url" href="https://gitlab.com/nicola_tuveri" rel="me">@nicola_tuveri</a></li>
+      <li>LinkedIn: <a class="u-url" href="https://www.linkedin.com/in/nicolatuveri/" rel="me" title="me">nicolatuveri</a></li>
+
+
+      <li>Matrix: <a class="u-url" href="https://matrix.to/#/@romen:romen.dev" rel="me">@romen:romen.dev</a></li>
 
       <li style="text-decoration: line-through;">X/Twitter: <a class="u-url" href="/img/left_twitter.png">@nictuv</a></li>
 
       <li>Bluesky: <a class="u-url" href="https://bsky.app/profile/did:plc:vul5qoendef44mjgre3etoqw" rel="me" title="did:plc:vul5qoendef44mjgre3etoqw">@romen.dev</a></li>
-
-      <li>Matrix: <a class="u-url" href="https://matrix.to/#/@romen:romen.dev" rel="me">@romen:romen.dev</a></li>
-
       <li>Fediverse:
           <ul>
               <li>Mastodon: <a class="u-url" href="https://floss.social/@romen" rel="me">@romen@floss.social</a></li>
               <li>Firefish: <a class="u-url" href="https://infosec.town/@romen" rel="me">@romen@infosec.town</a></li>
+              <li>Friendica: <a class="u-url" href="https://my-place.social/profile/romen" rel="me">romen@my-place.social</a></li>
           </ul>
       </li>
     </ul>
   </main>
+  <section id="openssl-role">
+    <a href="https://openssl-communities.org/hub-academics/"><img src="img/openssl-communities-banner.png" alt="OpenSSL Communities banner" class="banner" /></a>
+    <h2>Academics Representative in OpenSSL Advisory Committees</h2>
+    <p>
+        I’m honored to serve as the elected representative for the Academics
+        Community in the following OpenSSL governance bodies:
+        <ul>
+          <li>OpenSSL Foundation's Business Advisory Committee (BAC)</li>
+          <li>OpenSSL Foundation's Technical Advisory Committee (TAC)</li>
+          <li>OpenSSL Corporation's Technical Advisory Committee (TAC)</li>
+        </ul>
+    </p>
+    <p>
+        These roles give me the opportunity—and the responsibility—to bring
+        forward the perspectives, concerns, and contributions of the academic
+        community as OpenSSL evolves.
+    </p>
+    <p>
+        🔍 Whether you’re researching cryptographic primitives, building
+        prototypes using OpenSSL, exploring real-world TLS deployments, or
+        studying secure systems, your insights can help shape both the
+        technical direction and broader strategic priorities of OpenSSL.
+    </p>
+    <p>
+        If you’re part of the academic world—whether as faculty, student, or
+        researcher—please feel free to raise any ideas, questions, or concerns
+        on
+        <a href="https://openssl-communities.org/hub-academics/">OpenSSL Communities</a>.
+    </p>
+  </section>
 </body>
 
 </html>
